@@ -1,0 +1,149 @@
+$main-color: #cf4646;
+$footer-color: #eee;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #555;
+}
+
+h1 {
+  font-weight: 200;
+  text-align: center;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 60px;
+}
+
+h3 {
+  font-size: 26px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 100;
+
+  a {
+    color: #fff;
+  }
+}
+
+.profile-image {
+  margin: 0 auto 40px;
+  width: 200px;
+  height: 200px;
+
+  img {
+    max-width: 100%;
+    border-radius: 200px;
+  }
+}
+
+.top {
+  background: $main-color;
+  color: #fff;
+  padding: 60px 0;
+
+  p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  a {
+    color: #fff;
+  }
+
+}
+
+.contact-info {
+  font-size: 30px;
+  text-align: center;
+
+  .item {
+    display: inline-block;
+
+    a {
+      padding: 0 5px;
+    }
+  }
+}
+
+.main-content {
+  padding: 30px 0;
+
+  a {
+    color: rgb(85,85,85);
+    text-decoration: none;
+  }
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 60px;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.content-section {
+  margin-bottom: 60px;
+  text-align: center;
+
+  a {
+    padding: 40px 0;
+    display: block;
+    border-bottom: solid #eee 1px;
+  }
+
+  .row {
+    > div:first-child {
+      border-right: solid #eee 1px;
+    }
+  }
+
+  a:hover {
+    color: $main-color;
+  }
+}
+
+.bx-item {
+  font-family: "KievitWeb", "Arial";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+footer {
+  background: $footer-color;
+  text-align: center;
+  padding: 30px;
+  color: #999;
+  /*border-top: solid 1px darken($footer-color, 10%);*/
+
+  p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+
+
+
