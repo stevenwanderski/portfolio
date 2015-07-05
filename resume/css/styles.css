@@ -601,6 +601,9 @@ p {
 .line-content p {
   font-size: 14px;
 }
+.line-content ul {
+  margin-left: 20px;
+}
 /* ==========================================================
 ! 9. Section: Education and Work Experience
 ========================================================== */
