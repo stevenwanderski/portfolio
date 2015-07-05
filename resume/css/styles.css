@@ -931,7 +931,7 @@ textarea.form-control {
 ! 13. Section: Thank you
 ========================================================== */
 .line-thank-you {
-  height: 60px;
+  height: 65px;
 }
 .thank-you {
   font-weight: 200;
@@ -965,7 +965,7 @@ textarea.form-control {
   font-size: 22px;
   font-weight: 200;
   margin-bottom: 5px;
-  max-width: 410px;
+  max-width: 400px;
   margin-left: auto;
   margin-right: auto;
 }
