@@ -936,7 +936,7 @@ textarea.form-control {
 .thank-you {
   font-weight: 200;
   font-size: 67px;
-  line-height: 48px;
+  line-height: 60px;
   color: #aaaaaa;
   font-style: italic;
   position: relative;
@@ -954,8 +954,7 @@ textarea.form-control {
 #footer {
   background: #ce5f5f;
   color: #fff;
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding: 17px;
   text-align: center;
   margin-top: 130px;
 }
