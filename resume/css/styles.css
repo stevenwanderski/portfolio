@@ -227,6 +227,11 @@ p {
     margin-left: -35px;
   }
 }
+@media (min-width: 240px) and (max-width: 719px) {
+  .section-title {
+    font-size: 30px;
+  }
+}
 .section-item-title-1 {
   color: #3b658a;
   border-bottom: 1px solid #ccc;
@@ -603,6 +608,7 @@ p {
 }
 .line-content ul {
   margin-left: 20px;
+  font-size: 14px;
 }
 /* ==========================================================
 ! 9. Section: Education and Work Experience
