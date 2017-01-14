@@ -183,7 +183,6 @@ footer {
   text-align: center;
   padding: 30px;
   color: #999;
-  /*border-top: solid 1px darken($footer-color, 10%);*/
 
   p {
     font-size: 16px;
@@ -191,8 +190,29 @@ footer {
   }
 }
 
+.sliderui {
+  max-width: 1000px;
+  width: 100%;
+  margin: 40px auto;
 
+  &__title {
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 18px;
+  }
 
+  &__tagline {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 80px;
 
+    a {
+      color: $main-color;
+      text-decoration: none;
 
-
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
