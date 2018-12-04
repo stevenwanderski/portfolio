@@ -1,162 +1,41 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+@import url(//db.onlinewebfonts.com/c/bcc90f9166f491ca4a926d79afa74d3e?family=FuturaLTW01-Bold);
+@import url(//db.onlinewebfonts.com/c/12fd3b0603f2ab22d6bf2bed80521841?family=Futura+LT);
+* {
   margin: 0;
   padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-  display: block; }
+  font-family: "Futura LT"; }
 
 body {
-  line-height: 1; }
-
-ol, ul {
-  list-style: none; }
-
-blockquote, q {
-  quotes: none; }
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none; }
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  color: #555; }
+  color: #333; }
 
 h1 {
-  font-weight: 200;
-  text-align: center;
+  font-family: "FuturaLTW01-Bold";
   font-size: 60px;
-  margin-bottom: 40px; }
+  margin-bottom: 80px; }
 
 h2 {
+  font-family: "FuturaLTW01-Bold";
+  font-size: 32px;
   text-align: center;
-  font-size: 24px;
-  margin-bottom: 60px; }
+  text-transform: uppercase; }
 
-h3 {
-  font-size: 26px;
-  padding-bottom: 5px;
-  text-align: center; }
+header {
+  padding: 50px 0 120px;
+  background: #eeedfd; }
+  header p {
+    max-width: 500px;
+    font-size: 20px;
+    line-height: 34px;
+    color: #555; }
 
-a {
-  text-decoration: underline; }
+main {
+  padding-top: 60px; }
 
-a:focus {
-  outline: 0; }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px; }
 
-p {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 100; }
-  p a {
-    color: #fff; }
-
-.profile-image {
-  margin: 0 auto 40px;
-  width: 200px;
-  height: 200px; }
-  .profile-image img {
-    max-width: 100%;
-    border-radius: 200px; }
-
-.top {
-  background: #cf4646;
-  color: #fff;
-  padding: 60px 0; }
-  .top p {
-    font-size: 18px;
-    margin-bottom: 10px;
-    text-align: center; }
-  .top a {
-    color: #fff; }
-
-.contact-info {
-  font-size: 30px;
-  text-align: center; }
-  .contact-info .item {
-    display: inline-block; }
-    .contact-info .item a {
-      padding: 0 5px; }
-
-.main-content {
-  padding: 30px 0; }
-  .main-content a {
-    color: #555555;
-    text-decoration: none; }
-
-.image {
-  text-align: center;
-  margin-bottom: 60px; }
-  .image img {
-    max-width: 100%; }
-
-.content-section {
-  margin-bottom: 60px;
-  text-align: center; }
-  .content-section a {
-    padding: 40px 0;
-    display: block;
-    border-bottom: solid #eee 1px; }
-  .content-section .row > div:first-child {
-    border-right: solid #eee 1px; }
-  .content-section a:hover {
-    color: #cf4646; }
-
-.bx-item {
-  font-family: "KievitWeb", "Arial";
-  font-size: 40px;
-  font-weight: bold; }
-
-footer {
-  background: #eee;
-  text-align: center;
-  padding: 30px;
-  color: #999; }
-  footer p {
-    font-size: 16px;
-    margin-bottom: 5px; }
-
-.sliderui {
-  max-width: 1000px;
-  width: 100%;
-  margin: 40px auto; }
-  .sliderui__title {
-    font-size: 60px;
-    text-align: center;
-    margin-bottom: 18px; }
-  .sliderui__tagline {
-    font-size: 18px;
-    text-align: center;
-    margin-bottom: 80px; }
-    .sliderui__tagline a {
-      color: #cf4646;
-      text-decoration: none; }
-      .sliderui__tagline a:hover {
-        text-decoration: underline; }
+.greeting {
+  font-size: 28px;
+  color: #555; }
