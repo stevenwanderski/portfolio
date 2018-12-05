@@ -10,8 +10,7 @@ body {
 
 h1 {
   font-family: "FuturaLTW01-Bold";
-  font-size: 60px;
-  margin-bottom: 80px; }
+  font-size: 60px; }
 
 h2 {
   font-family: "FuturaLTW01-Bold";
@@ -22,8 +21,7 @@ h2 {
 
 h3 {
   font-family: "FuturaLTW01-Bold";
-  font-size: 48px;
-  margin-bottom: 40px; }
+  font-size: 48px; }
 
 p {
   font-size: 20px;
@@ -32,7 +30,7 @@ p {
   max-width: 500px; }
 
 header {
-  padding: 50px 0 120px;
+  padding: 50px 0;
   background: #eeedfd; }
 
 main {
@@ -49,17 +47,25 @@ article {
   margin: 0 auto;
   padding: 0 50px;
   box-sizing: border-box;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  position: relative; }
 
 .greeting {
   font-size: 28px;
   color: #777; }
 
-hr {
-  width: 200px;
-  border: 0;
-  border-bottom: solid 1px #eee;
-  margin: 30px auto; }
+.blurb {
+  margin-bottom: 60px; }
+
+.contact-links {
+  position: absolute;
+  top: 0;
+  right: 60px; }
+
+.contact-link--email {
+  margin-right: 10px; }
+  .contact-link--email img {
+    width: 35px; }
 
 .image {
   position: relative;
@@ -74,3 +80,12 @@ hr {
 
 .article-copy {
   flex: 1 0 40%; }
+
+.article-link {
+  margin-bottom: 40px; }
+  .article-link a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #9c9cd5; }
+    .article-link a:hover {
+      text-decoration: underline; }
