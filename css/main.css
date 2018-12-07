@@ -10,7 +10,12 @@ body {
 
 h1 {
   font-family: "FuturaLTW01-Bold";
-  font-size: 60px; }
+  font-size: 60px;
+  margin-bottom: 40px; }
+  @media (max-width: 1000px) {
+    h1 {
+      margin-bottom: 10px;
+      line-height: 70px; } }
 
 h2 {
   font-family: "FuturaLTW01-Bold";
@@ -20,8 +25,10 @@ h2 {
   margin-bottom: 100px; }
 
 h3 {
-  font-family: "FuturaLTW01-Bold";
-  font-size: 48px; }
+  margin-bottom: 20px; }
+  h3 a {
+    font-family: "FuturaLTW01-Bold";
+    font-size: 48px; }
 
 p {
   font-size: 20px;
@@ -29,9 +36,17 @@ p {
   color: #777;
   max-width: 500px; }
 
+a {
+  text-decoration: none;
+  color: #333; }
+  a:hover {
+    color: #666;
+    text-decoration: underline; }
+
 header {
   padding: 50px 0;
-  background: #eeedfd; }
+  background: #eeedfd;
+  position: relative; }
 
 main {
   padding-top: 60px; }
@@ -60,16 +75,24 @@ article {
 .contact-links {
   position: absolute;
   top: 0;
-  right: 60px; }
+  right: 60px;
+  font-size: 18px; }
+  @media (max-width: 1000px) {
+    .contact-links {
+      position: static;
+      margin-bottom: 40px; } }
 
 .contact-link--email {
   margin-right: 10px; }
   .contact-link--email img {
-    width: 35px; }
+    width: 50px; }
 
 .image {
   position: relative;
   right: -100px; }
+  @media (max-width: 1000px) {
+    .image {
+      right: 0; } }
   .image img {
     max-width: 100%;
     max-height: 600px; }
@@ -77,15 +100,22 @@ article {
 .article-wrap {
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 1000px) {
+    .article-wrap {
+      flex-direction: column; } }
 
 .article-copy {
   flex: 1 0 40%; }
+  @media (max-width: 1000px) {
+    .article-copy {
+      margin-bottom: 40px; } }
 
-.article-link {
-  margin-bottom: 40px; }
-  .article-link a {
-    font-size: 22px;
-    text-decoration: none;
-    color: #9c9cd5; }
-    .article-link a:hover {
-      text-decoration: underline; }
+.header-image {
+  position: absolute;
+  top: 20px;
+  right: 280px;
+  background: url("../images/smile.svg") center no-repeat;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  display: none; }
