@@ -15,7 +15,8 @@ h1 {
   @media (max-width: 1000px) {
     h1 {
       margin-bottom: 10px;
-      line-height: 70px; } }
+      line-height: 50px;
+      font-size: 40px; } }
 
 h2 {
   font-family: "FuturaLTW01-Bold";
@@ -29,6 +30,9 @@ h3 {
   h3 a {
     font-family: "FuturaLTW01-Bold";
     font-size: 48px; }
+    @media (max-width: 1000px) {
+      h3 a {
+        font-size: 24px; } }
 
 p {
   font-size: 20px;
@@ -64,6 +68,9 @@ article {
   box-sizing: border-box;
   overflow-x: hidden;
   position: relative; }
+  @media (max-width: 1000px) {
+    .container {
+      padding: 0 20px; } }
 
 .greeting {
   font-size: 28px;
