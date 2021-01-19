@@ -235,3 +235,48 @@ article {
   @media (max-width: 1000px) {
   }
 }
+
+@media screen {
+  .print-header {
+    display: none;
+  }
+}
+
+@media print {
+  header {
+    display: none;
+  }
+
+  h1 {
+    margin-bottom: 0;
+  }
+
+  h2 {
+    margin-bottom: 80px;
+  }
+
+  .print-header {
+    display: block;
+    padding: 50px 0;
+
+    .url {
+      font-size: 20px;
+    }
+  }
+
+  .greeting {
+    margin-bottom: 30px;
+  }
+
+  .contact-links {
+    display: none;
+  }
+
+  main {
+    padding-top: 0;
+  }
+
+  article {
+    margin-bottom: 80px;
+  }
+}
